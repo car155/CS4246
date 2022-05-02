@@ -1,0 +1,8 @@
+test_config = [{'lanes' : [LaneSpec(3, [-1, -1])] *3,'width' :5, 'seed': 12},
+               {'lanes' : [LaneSpec(2, [-1, -1])] *3,'width' :5, 'seed': 25},
+               {'lanes' : [LaneSpec(3, [-1, -1])] *4,'width' :10, 'seed': 125},
+               {'lanes' : [LaneSpec(6, [-2, -2])] *2 + [LaneSpec(6, [-5, -5])] *2 +
+				[LaneSpec(5, [-4, -4])] *2 + [LaneSpec(5, [-2, -2])] *1, 'width' :30, 'seed' : 101},
+			   {'lanes' : [LaneSpec(7, [-3, -3])] *2 + [LaneSpec(6, [-4, -4])] *2 +
+				[LaneSpec(6, [-4, -4])] *2 + [LaneSpec(6, [-3, -3])] *2 +
+				[LaneSpec(5, [-2, -2])] *2 + [LaneSpec(5, [-3, -3])] *2 , 'width' :35, 'seed' : 40}]
